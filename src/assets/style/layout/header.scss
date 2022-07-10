@@ -1,0 +1,78 @@
+.header {
+  width: 100%;
+  z-index: 100;
+}
+
+.head {
+  width: 1300px;
+  min-width: 1300px;
+  margin: 0 auto;
+  height: 95px;
+
+  .layout {
+    position: relative;
+    height: 100%;
+
+    .logo {
+      width: 207px;
+      height: 77px;
+      position: absolute;
+      top: 9px
+    }
+
+    .nav {
+      position: relative;
+      height: 95px;
+      display: inline-block;
+      margin: auto;
+      float: right;
+      margin-right: 50px;
+
+
+      &-item {
+        position: relative;
+        float: left;
+        width: 115px;
+        height: 95px;
+        line-height: 95px;
+        text-align: center;
+        font-size: 14px;
+        z-index: 1;
+        list-style: none;
+        margin-right: 25px;
+
+        a {
+          display: block;
+          height: 95px;
+          color: #fff;
+          font-size: 16px;
+          font-weight: bold;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
+        }
+      }
+    }
+
+    .topicon {
+      position: absolute;
+      right: 0;
+      top: 27px;
+      padding: 8px;
+      height: 30px;
+    }
+
+    .topicon a {
+      color: #fff;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      border: 1px #fff solid;
+      border-radius: 50%
+    }
+
+    .topicon a i {
+      font-size: 14px;
+    }
+  }
+}
